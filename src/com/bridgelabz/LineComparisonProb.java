@@ -37,8 +37,10 @@ public class LineComparisonProb {
 
         if (lenOfLine1 == lenOfLine2) {
             System.out.println("Two lengths are equal");
-        } else {
-            System.out.println("Two lengths are not equal");
+        } else if (lenOfLine1 > lenOfLine2) {
+            System.out.println("Length of line1 is greater than Length of line2");
+        } else{
+            System.out.println("Length of line2 is greater than Length of line1");
         }
     }
 
